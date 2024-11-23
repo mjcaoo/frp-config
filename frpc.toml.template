@@ -1,0 +1,9 @@
+serverAddr = "127.0.0.1"  # frps server address
+serverPort = 7000  # frps server port
+
+[[proxies]]  
+name = "XXXXX"  # proxy name
+type = "tcp"  # proxy type, http, tcp, udp, stcp, xtcp
+localIP = "127.0.0.1"  # local IP address
+localPort = 22  # local port
+remotePort = 9000  # remote port

@@ -1,0 +1,3 @@
+bindPort = 7000  # frp server port
+log.to = "/opt/frp/logs/frps.log"  # frp server log file path
+auth.token = "XXXX"  # frp server authentication token
