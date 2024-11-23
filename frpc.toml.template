@@ -1,5 +1,7 @@
 serverAddr = "127.0.0.1"  # frps server address
 serverPort = 7000  # frps server port
+auth.token = "XXXXXXXXX"  # frps auth token
+log.to = "/opt/frp/logs/frpc.log"  # log file path
 
 [[proxies]]  
 name = "XXXXX"  # proxy name
